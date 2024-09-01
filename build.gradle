@@ -27,7 +27,3 @@ test {
     useJUnit()
 }
 
-// Ensure the wrapper task is available
-tasks.register('wrapper', Wrapper) {
-    gradleVersion = '7.6.1'
-}
