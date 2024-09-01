@@ -24,3 +24,12 @@ hs_err_pid*
 .idea/
 .gradle/
 build/
+.aider*
+
+.clj-kondo/
+.cpcache/
+.lsp/
+.calva/
+.gitignore
+.nrepl-port
+.DS_Store
