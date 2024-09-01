@@ -8,8 +8,6 @@ repositories {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.11'
-
     compile 'org.zeromq:jeromq:0.4.0'
     compile 'org.msgpack:msgpack-core:0.8.13'
     compile 'com.google.guava:guava:22.0'
