@@ -1,14 +1,20 @@
-apply plugin: 'java'
+plugins {
+    id 'java'
+}
 
-sourceCompatibility = 1.7
+group = 'org.zerorpc'
 version = '1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+}
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile 'org.zeromq:jeromq:0.4.0'
-    compile 'org.msgpack:msgpack-core:0.8.13'
-    compile 'com.google.guava:guava:22.0'
+    implementation 'org.zeromq:jeromq:0.5.3'
+    implementation 'org.msgpack:msgpack-core:0.9.3'
+    implementation 'com.google.guava:guava:31.1-jre'
 }
